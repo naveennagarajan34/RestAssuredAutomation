@@ -12,14 +12,9 @@ public class payload {
 				+ "  \"language\": \"French-IN\"\r\n" + "}\r\n" + "";
 
 	}
+
 	public static String AddBook(String isbn, String aisle) {
-		return "{\n"
-				+ "\n"
-				+ "\"name\":\"Automate with Naveen and Java\",\n"
-				+ "\"isbn\":\""+isbn+"\",\n"
-				+ "\"aisle\":\""+aisle+"\",\n"
-				+ "\"author\":\"Naveen N\"\n"
-				+ "}\n"
-				+ "";
+		return "{\n" + "\n" + "\"name\":\"Automate with Naveen and Java\",\n" + "\"isbn\":\"" + isbn + "\",\n"
+				+ "\"aisle\":\"" + aisle + "\",\n" + "\"author\":\"Naveen N\"\n" + "}\n" + "";
 	}
 }
